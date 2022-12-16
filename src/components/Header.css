@@ -1,0 +1,17 @@
+.Header {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.header-icon {
+  font-size: 1.5rem;
+  color: #919bc3;
+  cursor: pointer;
+}
+
+.header-icon:hover {
+  color: #23315d;
+  transition: all 1s;
+}

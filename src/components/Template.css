@@ -1,0 +1,46 @@
+.Template {
+  width: 358px;
+  height: 730px;
+  margin: 2rem auto 0 auto;
+  /* padding-top: 20px;
+  max-height: 100vh; */
+  /* border: 0.5px solid; */
+  border-radius: 30px;
+  background: #fbfbff;
+  overflow: hidden;
+  /* padding: 10px 30px; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.template-container {
+  padding: 10px 30px;
+}
+
+.title {
+  display: flex;
+  padding-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #23315d;
+}
+
+.task-title {
+  padding-top: 5px;
+  color: #9ea9cc;
+  font-weight: bold;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-todo-button {
+  position: absolute;
+  top: 655px;
+  z-index: 100;
+  cursor: pointer;
+  font-size: 4.5rem;
+  color: #3981f6;
+  text-shadow: 3px 6px rgba(135, 139, 165, 0.75);
+}

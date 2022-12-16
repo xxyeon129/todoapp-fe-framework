@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "text": "Daily meeting with team",
+      "checked": true
+    },
+    {
+      "id": 2,
+      "text": "Pay for rent",
+      "checked": false
+    },
+    {
+      "id": 3,
+      "text": "Check emails",
+      "checked": true
+    },
+    {
+      "id": 4,
+      "text": "Lunch with Emma",
+      "checked": false
+    },
+    {
+      "id": 5,
+      "text": "Meditation",
+      "checked": false
+    }
+  ]
+}

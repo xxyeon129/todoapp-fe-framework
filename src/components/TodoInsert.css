@@ -1,0 +1,67 @@
+.background {
+  width: 358px;
+  height: 730px;
+  /* position: fixed;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+   */
+  z-index: 980;
+  /* opacity: 0.8; */
+  /* background: #757575; */
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 300px;
+  height: 150px;
+  z-index: 990;
+  background: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 5px 1px #757575;
+  /* position: fixed; */
+}
+
+form > input {
+  /* background: none; */
+  outline: none;
+  border: none;
+  /* border-bottom: 1px solid #757575; 
+  line-height: 1.5;
+  */
+  font-size: 1.125rem;
+}
+
+form > button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  color: #3981f6;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  transition: 0.1s background ease-in;
+  padding-top: 20px;
+}
+
+.re-write > svg {
+  color: #9ea9cc;
+  padding-top: 20px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.re-write > svg:hover {
+  color: #3981f6;
+  cursor: pointer;
+}
